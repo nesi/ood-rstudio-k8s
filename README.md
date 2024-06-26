@@ -1,1 +1,3 @@
-# ood-rstudio-k8s
+# NeSI analysis environment OODRStudio app
+
+Open OnDemand RStudio app for the NeSI Analysis environment.
