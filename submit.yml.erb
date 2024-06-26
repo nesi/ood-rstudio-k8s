@@ -13,7 +13,7 @@ script:
   native:
     container:
       name: "rstudio"
-      image: "hub.docker.com/kandnesi/ood-rstudio-k8s:v0.1"
+      image: "kandnesi/ood-rstudio-k8s:v0.1"
       command: ["/bin/bash","-l","<%= staged_root %>/job_script_content.sh"]
       restart_policy: 'OnFailure'
       env:
